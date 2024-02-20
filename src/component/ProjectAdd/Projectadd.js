@@ -98,8 +98,11 @@ const Projectadd=()=>{
                     <h3>{project.prodesc}</h3>
                     <h3>{project.repolink}</h3>
                     <h3>{project.prolink}</h3>
+                        <div className="btns">
+                    <button type="click" onClick={()=>deleteUser(project._id,project.protit)}>Delete</button>
                     <Link to={`/update/${project._id}`}><button type="click">Update</button></Link>
-                    <button type="click" onClick={()=>deleteUser(project._id,project.protit)}>Delete</button>              
+                       
+                    </div> 
                 </div>
                 ))}
         </div>

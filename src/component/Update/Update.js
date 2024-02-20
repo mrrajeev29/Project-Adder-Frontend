@@ -39,7 +39,7 @@ const ProjectUpdate=()=>{
 
     return(
         <>
-        <h1 className="head">New Project Adder for Portfolio</h1>
+        <h1 className="head">Update Project</h1>
         <form >
             <div>
                 <h1 className="Mobhead">Project Adder</h1>

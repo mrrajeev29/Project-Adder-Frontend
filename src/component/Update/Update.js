@@ -30,7 +30,7 @@ const ProjectUpdate=()=>{
         .then(result=>{
             console.log(result)
             //navigate('sub')
-            window.open("http://localhost:3000/sub","_self")
+            window.open("https://project-adder-frontend.vercel.app/sub","_self")
             //console.log("ok")
         })
         .catch(err=>console.log(err))

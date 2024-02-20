@@ -1,0 +1,18 @@
+.pss{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+}
+.pss input{
+    text-align: center;
+}
+.btnl{
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 0.5rem;
+}
+.hed{
+    font-size: 3.5rem;
+}

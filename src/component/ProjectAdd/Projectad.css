@@ -1,0 +1,108 @@
+*{
+    background-color: black;
+    color: yellow;
+}
+form{
+    margin: 10rem;
+}
+form div{
+    display: inline-block;
+    justify-content: center;
+}
+div input{
+    height: 2rem;
+    width: 20rem;
+    margin: 1.2rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+input:hover{
+    border-color: yellow;
+}
+h1{
+    font-size: 1.5rem
+}
+button{
+    height: 3rem;
+    width: 12rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 3.75rem;
+}
+button:hover{
+    background-color: palegreen;
+    color: white;
+}
+.head{
+    font-size: 3.2rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.Mobhead{
+    display: none;
+}
+.phonelink{
+    display: none;
+}
+@media screen and (max-width:720px) {
+    form{
+        margin: 1rem;
+    }
+    .head{
+        display: none;
+    }
+    .phonelink{
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        display: none;
+    }
+    .Mobhead{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    div input{
+        height: 2rem;
+        width: 15rem;
+        margin: 1rem;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        display: flex;
+    }
+    form div{
+        display:grid;
+        justify-content: center;
+    }
+}
+
+
+
+
+.ProjectsBack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Project{
+    width: 35rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+    border:2px solid white;
+    padding: 2rem;
+}

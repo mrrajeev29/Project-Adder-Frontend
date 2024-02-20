@@ -109,6 +109,13 @@ a:hover{
 
 @media screen and (max-width:720px){
     .Project{
-        width: 18rem;
+        width: 20rem;
     }
+    .btns{
+        flex-wrap: wrap;
+    }
+}
+
+.btns{
+    display: flex;
 }

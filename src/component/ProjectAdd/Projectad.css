@@ -106,3 +106,9 @@ a:hover{
     border:2px solid white;
     padding: 2rem;
 }
+
+@media screen and (max-width:720px){
+    .Project{
+        width: 20rem;
+    }
+}
